@@ -1,0 +1,13 @@
+<div class="mt-5">
+  <div class="py-2 px-3 border-start border-4 border-secondary mb-4">
+    <p class="mb-1"> <%= @question %> </p>
+    <p class="text-muted mb-0">- You</p>
+  </div>
+
+  <div class="py-2 px-3 mb-4" style="background-color: #fff3cd; border-left: 4px solid #ffc107;">
+    <p class="mb-1"> <%= @answer %> </p>
+    <p class="text-muted mb-0">- Your coach</p>
+  </div>
+
+  <%= link_to "Ask a new question", ask_path, class: "text-primary text-decoration-none mt-4 d-block" %>
+</div>
